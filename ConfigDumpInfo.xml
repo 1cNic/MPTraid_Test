@@ -5,6 +5,7 @@
 		<Metadata name="Language.Русский" id="ad21637f-594e-4371-995b-e6c4a4ccbb43" configVersion="0f9479bdb9844a42b3aab406771f14b900000000"/>
 		<Metadata name="Catalog.Номенклатура" id="11111111-1111-1111-1111-111111111111" configVersion="656c222089139f5e3e0a1969a84152df00000000"/>
 		<Metadata name="Catalog.Характеристики" id="3502bf6c-8014-4603-b85f-b405d0008a57" configVersion="d6f9a39be4b8938d8499ac3b525abea700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристик" id="88743074-9d6b-467a-a09b-4fa2ef650f71" configVersion="c462695640c2005cdb73e7bca4be86e000000000"/>
 		<Metadata name="Document.РасходТоваров" id="358e178d-7673-4477-9aaf-05de258e4ed9" configVersion="2866a2f73875f2bee9fe73eca2a0a76c00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

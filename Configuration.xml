@@ -247,6 +247,7 @@
 			<Language>Русский</Language>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Характеристики</Catalog>
+			<ChartOfCharacteristicTypes>ВидыХарактеристик</ChartOfCharacteristicTypes>
 			<Document>РасходТоваров</Document>
 		</ChildObjects>
 	</Configuration>
