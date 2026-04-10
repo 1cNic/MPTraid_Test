@@ -248,6 +248,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Характеристики</Catalog>
 			<ChartOfCharacteristicTypes>ВидыХарактеристик</ChartOfCharacteristicTypes>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<Document>РасходТоваров</Document>
 		</ChildObjects>
 	</Configuration>

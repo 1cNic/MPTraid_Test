@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<ChartOfCharacteristicTypes uuid="88743074-9d6b-467a-a09b-4fa2ef650f71">
+	<ChartOfCharacteristicTypes uuid="97ecd867-9b18-4671-af6d-4dbef26e9125">
 		<InternalInfo>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВидыХарактеристик" category="Object">
-				<xr:TypeId>094b0fba-dc6d-4751-bddf-dce50f584e4a</xr:TypeId>
-				<xr:ValueId>ff3ebd47-2033-4c04-b5eb-ec05c72230eb</xr:ValueId>
+				<xr:TypeId>bee1eece-4a23-417a-8d7a-452f2e5e9ee6</xr:TypeId>
+				<xr:ValueId>d3fc84b9-d17c-43ed-ae37-290301c34289</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ВидыХарактеристик" category="Ref">
-				<xr:TypeId>1fd4580d-46f5-40f3-8de6-13409fba2a27</xr:TypeId>
-				<xr:ValueId>fad497f7-c4d8-4f19-92fc-087c09a5b07b</xr:ValueId>
+				<xr:TypeId>8c1c1f76-a721-42ed-8a7f-a7de54832664</xr:TypeId>
+				<xr:ValueId>86a33ae2-d7ba-414d-b32f-b5199514c582</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ВидыХарактеристик" category="Selection">
-				<xr:TypeId>4dcf9d95-f942-4c4c-a3af-8bac36ecb141</xr:TypeId>
-				<xr:ValueId>9cb033cd-1dfd-4fa8-a7f8-5b789e841424</xr:ValueId>
+				<xr:TypeId>b900f0ff-72d3-4433-bdb8-387e74bc08bf</xr:TypeId>
+				<xr:ValueId>fadbe885-868f-45a8-9d91-b5a407b55575</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ВидыХарактеристик" category="List">
-				<xr:TypeId>9f117ca1-d101-4780-ba8b-91e723883829</xr:TypeId>
-				<xr:ValueId>477e7371-35e2-4c87-b141-c456b795708d</xr:ValueId>
+				<xr:TypeId>7630a20f-478a-442d-8e93-cce90864930b</xr:TypeId>
+				<xr:ValueId>67d0bda6-0630-4d36-bb60-8b7e760baa0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ВидыХарактеристик" category="Characteristic">
+				<xr:TypeId>195e6833-4aa8-4d43-b30b-322dc501703c</xr:TypeId>
+				<xr:ValueId>051084f1-9e71-4a43-9848-94415092cc1a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ВидыХарактеристик" category="Manager">
-				<xr:TypeId>bf8fb65a-d3dc-4722-998d-b966d8874d88</xr:TypeId>
-				<xr:ValueId>25bdbd6e-461e-4ed2-8b0c-a3c3e0664ff7</xr:ValueId>
+				<xr:TypeId>2d62a293-1459-4fa6-9f9e-1eaef7ff2a6a</xr:TypeId>
+				<xr:ValueId>3a73b394-256a-5fb7-af0f-2fbe871b3b7b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -33,15 +37,31 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues>Catalog.Характеристики</CharacteristicExtValues>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Характеристики</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+				<v8:StringQualifiers>
+					<v8:Length>150</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>150</DescriptionLength>
-			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<CharacteristicType>CatalogRef.Характеристики</CharacteristicType>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
@@ -151,6 +171,65 @@
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
+				<xr:StandardAttribute name="IsFolder">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Parent">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>true</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа</v8:content>
+						</v8:item>
+					</xr:Synonym>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:type="xr:DesignTimeRef">ChartOfCharacteristicTypes.ВидыХарактеристик.EmptyRef</xr:FillValue>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Description">
 					<xr:LinkByType/>
 					<xr:FillChecking>ShowError</xr:FillChecking>
@@ -206,6 +285,7 @@
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
 			</StandardAttributes>
+			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
@@ -218,11 +298,15 @@
 			<FullTextSearchOnInputByString>Use</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Background</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
+			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields/>

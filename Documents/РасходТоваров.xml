@@ -152,6 +152,21 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="f9946fbb-8d6b-4fe7-be2f-cee2c45a526a">
+						<Properties>
+							<Name>ВидХарактеристики</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ВидыХарактеристик</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 					<Attribute uuid="add24cee-9cb7-4354-9746-56f38364ea4f">
 						<Properties>
 							<Name>Характеристика</Name>
@@ -169,6 +184,11 @@
 								<xr:Link>
 									<xr:Name>Отбор.Владелец</xr:Name>
 									<xr:DataPath xsi:type="xs:string">Document.РасходТоваров.TabularSection.Товары.Attribute.Номенклатура</xr:DataPath>
+									<xr:ValueChange>Clear</xr:ValueChange>
+								</xr:Link>
+								<xr:Link>
+									<xr:Name>Отбор.ВидХарактеристики</xr:Name>
+									<xr:DataPath xsi:type="xs:string">Document.РасходТоваров.TabularSection.Товары.Attribute.ВидХарактеристики</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
 							</ChoiceParameterLinks>
@@ -216,6 +236,15 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаДокумента</Form>
+			<RegisterRecords>
+				<RegisterRecords xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+					<Record Set="AccumulationRegister.ОстаткиТоваров">
+						<Field>Номенклатура</Field>
+						<Field>Характеристика</Field>
+						<Field>Количество</Field>
+					</Record>
+				</RegisterRecords>
+			</RegisterRecords>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
