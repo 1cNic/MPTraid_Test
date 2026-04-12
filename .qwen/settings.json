@@ -10,7 +10,10 @@
       "Bash(curl *)",
       "Bash(git remote *)",
       "Bash(git push *)",
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "Bash(grep *)",
+      "Bash(python *)",
+      "Bash(mkdir *)"
     ]
   },
   "$version": 3
